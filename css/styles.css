@@ -839,16 +839,18 @@ footer {
     }
 
     .project-image {
-        float: left;
+        float: none;
+        display: block;
+        width: 100%;
         max-width: 100%;
-        max-height: 300px;
-        z-index: 2;
     }
 
     .project-info {
-       position: absolute;
-        top: 50%;
-    transform: translateY(-50%);
+        position: relative;
+        margin: 0;
+        padding: 30px 15px;
+        top: auto;
+        transform: none;
     }
 
     footer {

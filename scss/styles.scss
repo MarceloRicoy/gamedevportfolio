@@ -959,7 +959,10 @@ footer {
     }
 
     .project-image {
-        display: none;
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 100%;
     }
 
     .project-info {
